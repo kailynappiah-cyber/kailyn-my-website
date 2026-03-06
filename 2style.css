@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #E6E6FA, #D8BFD8);
+    color: #333;
+}
+
+header {
+    background-color: #9370DB;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.mood-buttons button {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mood-buttons button:hover {
+    transform: scale(1.2);
+}
+
+#breathingCircle {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: #D8BFD8;
+    transition: transform 4s ease-in-out;
+}
+
+button {
+    background-color: #9370DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7B68EE;
+}
+
+
+#breathingCircle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#D8BFD8;
+    margin:auto;
+    transition:4s;
+}
+footer{
+background-color:#c8a2ff;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.footer-links{
+margin-top:10px;
+}
+
+.footer-links a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.footer-links a:hover{
+text-decoration:underline;
+}

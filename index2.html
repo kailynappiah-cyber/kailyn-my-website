@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calmly - Teen Wellness</title>
+    <link rel="stylesheet" href="2style.css">
+</head>
+<body>
+
+    <header>
+        <h1>💜 Calmly</h1>
+        <div class="xp-box">
+            Level: <span id="level">1</span> |
+            XP: <span id="xp">0</span>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Mood Tracker -->
+        <section class="card">
+            <h2>How are you feeling today?</h2>
+            <div class="mood-buttons">
+                <button onclick="setMood('😊')">😊</button>
+                <button onclick="setMood('😐')">😐</button>
+                <button onclick="setMood('😔')">😔</button>
+                <button onclick="setMood('😡')">😡</button>
+            </div>
+            <p id="moodMessage"></p>
+        </section>
+
+        <!-- Breathing Exercise -->
+        <section class="card">
+            <h2>Breathing Exercise</h2>
+            <div id="breathingCircle"></div>
+            <button onclick="startBreathing()">Start Breathing</button>
+        </section>
+
+        <!-- Daily Challenge -->
+        <section class="card">
+            <h2>Daily Challenge</h2>
+            <p>Write down 3 things you're grateful for 💜</p>
+            <button onclick="completeChallenge()">Complete Challenge</button>
+        </section>
+
+    </main>
+
+<body>
+
+<div class="login-container">
+    <h1>💜 Calmly</h1>
+</div>
+
+<script src="web.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="breathingCircle"></div>
+
+<button onclick="startBreathing()">Start Breathing</button>
+</body>
+<h2>3 Things You Are Grateful For 🌟</h2>
+
+<input type="text" id="g1" placeholder="First thing">
+<input type="text" id="g2" placeholder="Second thing">
+<input type="text" id="g3" placeholder="Third thing">
+
+<button onclick="saveGratitude()">Save</button>
+
+<p id="gratitudeMessage"></p>
+
+
+<h2>Write your thoughts 📝</h2>
+
+<textarea id="journal" placeholder="Write how you feel..."></textarea>
+
+<button onclick="saveJournal()">Save Entry</button>
+
+<p id="journalSaved"></p>
+<h2>Mood Tracker 💜</h2>
+
+<input type="text" id="moodInput" placeholder="How are you feeling today?">
+
+<button onclick="saveMood()">Save Mood</button>
+
+<p id="moodOutput"></p>
+
+<footer>
+    <p>© 2026 Calmly 💜</p>
+    <p>Helping teenagers improve their mental health through small daily habits.</p>
+
+    <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Resources</a>
+        <a href="#">Contact</a>
+    </div>
+</footer>
+"Remember: You are stronger than you think 💜"
+    </body>
+
+</html>
+
